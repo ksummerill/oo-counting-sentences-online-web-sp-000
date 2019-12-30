@@ -22,7 +22,7 @@ class String
       elements = self.split("." || "?" || "!")
       array_of_strings << elements
 
-      # return array_of_strings.count
+      array_of_strings.count
   end
 
 end
