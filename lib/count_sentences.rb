@@ -28,7 +28,7 @@ class String
       array_of_strings << elements
 
       array_of_strings.count
-      puts array_of_strings.count
+      # puts array_of_strings.count
   end
 
 end
