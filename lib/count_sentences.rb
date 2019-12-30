@@ -22,14 +22,14 @@ class String
   # "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
   def count_sentences
     # self.each do |full_string|
-      array_of_strings = []
+      # array_of_strings = []
       # elements = self.split(".") || self.split("?") || self.split("!")
-        elements = self.split(/[.!?]/)
-          array_of_strings << elements
-          elements.count
-
-
-          puts array_of_strings
+        elements = self.split(/[.!?]/).reject {|x| x.empty?}.size
+          # array_of_strings << elements
+          # elements.count
+          #
+          #
+          # puts array_of_strings
       # return array_of_strings.count
   end
 
