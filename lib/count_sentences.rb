@@ -31,7 +31,7 @@ class String
       end
 
       # array_of_strings.count
-      puts array_of_strings.count
+      return array_of_strings.count
   end
 
 end
