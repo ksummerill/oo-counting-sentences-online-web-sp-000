@@ -27,6 +27,7 @@ class String
       # elements = self.split(".") || self.split("?") || self.split("!")
         elements = self.split(/ /)
           array_of_strings << elements
+          puts elements
       #   else self.reject(&:empty?)
       # end
 
