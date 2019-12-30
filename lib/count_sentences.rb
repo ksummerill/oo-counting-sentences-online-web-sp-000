@@ -25,7 +25,7 @@ class String
       array_of_strings = []
       # elements = self.split("." || "?" || "!")
       # elements = self.split(".") || self.split("?") || self.split("!")
-        if elements = self.split(".") || self.split("?") || self.split("!")
+        if elements = self.split(/ /)
           array_of_strings << elements
         else self.reject(&:empty?)
       end
