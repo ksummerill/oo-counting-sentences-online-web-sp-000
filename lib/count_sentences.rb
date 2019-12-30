@@ -26,7 +26,7 @@ class String
       # elements = self.split(".") || self.split("?") || self.split("!")
         elements = self.split(/(\.|\?|\!)/)
           array_of_strings << elements
-          elements.count
+          puts elements.count
 
 
       # array_of_strings.count
