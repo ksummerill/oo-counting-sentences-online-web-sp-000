@@ -21,7 +21,7 @@ class String
       array_of_strings = []
       elements = self.split("." || "?" || "!")
       array_of_strings << if elements != ("")
-
+      end
       # return array_of_strings.count
   end
 
