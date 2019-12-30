@@ -18,6 +18,7 @@ class String
   # "one. two. three?"
   # "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
   def count_sentences
+    string.each do |sentence|
       array_of_strings = []
       elements = self.split("." || "?" || "!")
       array_of_strings << elements
