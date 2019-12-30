@@ -27,7 +27,7 @@ class String
       # elements = self.split(".") || self.split("?") || self.split("!")
         if elements = self.split(".") || self.split("?") || self.split("!")
           array_of_strings << elements
-        else self == ""
+        else self.reject(&:empty?)
       end
 
       array_of_strings.count
