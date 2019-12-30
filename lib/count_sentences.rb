@@ -24,8 +24,11 @@ class String
     # self.each do |full_string|
       array_of_strings = []
       # elements = self.split("." || "?" || "!")
-      elements = self.split(".") || self.split("?") || self.split("!")
-      array_of_strings << elements
+      # elements = self.split(".") || self.split("?") || self.split("!")
+        if elements = self.split(".") || self.split("?") || self.split("!")
+          array_of_strings << elements
+        else self == ""
+      end
 
       array_of_strings.count
       # puts array_of_strings.count
