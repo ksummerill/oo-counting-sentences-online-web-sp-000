@@ -26,10 +26,10 @@ class String
       # elements = self.split(".") || self.split("?") || self.split("!")
         elements = self.split(/(\.|\?|\!)/)
           array_of_strings << elements
-          puts elements.count
+          elements.count
 
 
-      # array_of_strings.count
+          puts array_of_strings
       # return array_of_strings.count
   end
 
