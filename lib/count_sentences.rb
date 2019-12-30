@@ -24,7 +24,7 @@ class String
     # self.each do |full_string|
       # array_of_strings = []
       # elements = self.split(".") || self.split("?") || self.split("!")
-        elements = self.split(/[.!?]/).reject {|x| x.empty?}.size
+        self.split(/[.!?]/).reject {|x| x.empty?}.size
           # array_of_strings << elements
           # elements.count
           #
