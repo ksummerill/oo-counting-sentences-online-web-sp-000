@@ -27,8 +27,6 @@ class String
         elements = self.split(/([.?!])/)
           array_of_strings << elements
           elements.count
-      #   else self.reject(&:empty?)
-      # end
 
       # array_of_strings.count
       # return array_of_strings.count
