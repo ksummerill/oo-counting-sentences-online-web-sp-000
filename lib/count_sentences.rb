@@ -20,8 +20,8 @@ class String
   def count_sentences
       array_of_strings = []
       elements = self.split("." || "?" || "!")
-      array_of_strings << if elements != ("")
-      end
+      array_of_strings << elements
+
       # return array_of_strings.count
   end
 
