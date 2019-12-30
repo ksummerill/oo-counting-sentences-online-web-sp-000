@@ -30,8 +30,8 @@ class String
         else self.reject(&:empty?)
       end
 
-      array_of_strings.count
-      # puts array_of_strings.count
+      # array_of_strings.count
+      puts array_of_strings.count
   end
 
 end
